@@ -20,7 +20,4 @@ public class Blog {
     public void setmessage(String message) {
         this.message = message;
     }
-
-
-
 }

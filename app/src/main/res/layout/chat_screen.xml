@@ -9,14 +9,21 @@
 
     tools:context=".sendMessage">
 
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/reyclerview_message_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="453dp"
         android:layout_marginTop="4dp"
-        android:layout_marginBottom="52dp"
         app:layout_constraintBottom_toTopOf="@id/layout_chatbox"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="27dp">
 
 
     </android.support.v7.widget.RecyclerView>

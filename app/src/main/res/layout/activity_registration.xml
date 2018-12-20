@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Registration"
-    android:background="@drawable/back"
-    android:layout_margin="10dp">
+    android:background="@drawable/back">
 
     <Button
         android:id="@+id/Register"
